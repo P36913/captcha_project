@@ -1,0 +1,10 @@
+<link rel="stylesheet" type="text/css" href="textStyle.css"/>
+<script type="text/javascript" src="textScript.js"></script>
+
+<body onload="Captcha();">
+    <div class="capt">
+        <h2 type="text" id="mainCaptcha"></h2>
+        <p><input type="button" id="refresh" onclick="Captcha();" /></p> <input type="text" id="txtInput" />
+        <input id="Button1" type="button" value="Check" onclick="alert(ValidCaptcha());" />
+    </div>
+</body>
